@@ -41,7 +41,7 @@ src/
 
 ## 🔧 Setup Instructions
 
-### Option 1: Using Your CSV File (Recommended for 50k+ records)
+### Using Your CSV File (Recommended for 50k+ records)
 
 1. **Place your CSV file** in the `public` folder as `ev-data.csv`
 2. **Install dependencies**:
@@ -66,17 +66,6 @@ Notes:
 - Quoted fields with commas are supported.
 - After deployment, ensure the file is available at the site root path `/ev-data.csv`.
 
-### Option 2: Direct Data Import (For smaller datasets)
-
-1. **Convert your CSV to TypeScript**:
-   - Use the provided CSV parser utility
-   - Update `src/data/evData.ts` with your data
-
-2. **Install and run**:
-   ```bash
-   npm install
-   npm run dev
-   ```
 
 ## 📈 Key Insights Displayed
 
