@@ -4,7 +4,7 @@ A comprehensive analytics dashboard for visualizing Electric Vehicle (EV) popula
 
 ## 🚀 Live Dashboard
 
-**[View Live Dashboard](YOUR_DEPLOYMENT_URL_HERE)**
+**[View Live Dashboard](https://evpopulation.netlify.app/)**
 
 ## 📊 Features
 
