@@ -22,7 +22,7 @@ A comprehensive analytics dashboard for visualizing Electric Vehicle (EV) popula
 - **Charts**: Chart.js with React Chart.js 2
 - **Icons**: Lucide React
 - **Build Tool**: Vite
-- **Deployment**: [Your chosen platform]
+- **Deployment**: Netlify
 
 ## 📁 Project Structure
 
@@ -34,7 +34,6 @@ src/
 │   ├── MetricCard.tsx  # Key metrics display
 │   ├── DataTable.tsx   # Interactive data table
 │   └── FilterControls.tsx # Data filtering interface
-├── data/               # Sample data and types
 ├── hooks/              # Custom React hooks
 ├── utils/              # Utility functions (CSV parser)
 └── App.tsx            # Main application component
@@ -65,7 +64,6 @@ The parser reads by column position (header row is ignored for mapping). Ensure 
 
 Notes:
 - Quoted fields with commas are supported.
-- If `/ev-data.csv` is missing or fails to load, the app falls back to `src/data/evData.ts` sample data.
 - After deployment, ensure the file is available at the site root path `/ev-data.csv`.
 
 ### Option 2: Direct Data Import (For smaller datasets)
@@ -99,7 +97,7 @@ Notes:
 
 ## 🚀 Deployment
 
-The dashboard is deployed and publicly accessible at: **[YOUR_DEPLOYMENT_URL_HERE]**
+The dashboard is deployed and publicly accessible at: **[https://evpopulation.netlify.app/]**
 
 ### Build for Production
 
@@ -128,4 +126,4 @@ This dashboard was created for the MapUp Analytics Dashboard Assessment, demonst
 
 **Repository Access**: This repository includes collaborator access for MapUp evaluators as requested.
 
-**Last Updated**: [Current Date]
+**Last Updated**: 27/08/2025
